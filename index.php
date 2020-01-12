@@ -24,7 +24,7 @@
 </table>
 	<p>
 		<br>
-		<input type="submit" name="submit1" value="send">
+		<input type="submit" name="submit" value="send">
 		
 	</p>
 
