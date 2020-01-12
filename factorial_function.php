@@ -1,8 +1,8 @@
 <?php
-function factor($x, $result) {
+function factorial($x, $result) {
     if ($x > 1) {
         $result *=$x;
-    factor($x-1, $result);
+    factorial($x-1, $result);
     }
     else
     {

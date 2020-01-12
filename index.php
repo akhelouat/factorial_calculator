@@ -1,3 +1,6 @@
+<?php
+include 'factorial_function.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +19,7 @@
 	<td valign="center">
 		<div id="newlink">
 			<div class="feed">
-			   <input type="text" name="myarray[]" value="1" size="20">
+			   <input type="text" name="value" value="1" size="20">
 			</div>
 		</div>
 	</td>
@@ -29,6 +32,13 @@
 	</p>
 
 </form>
+<?php
+$value = $_POST['value'];
+echo "The factorial of $value is ==>  ";
+		factorial($value,1);
+      
+        ?>
+
 
 </article>
 </body>
