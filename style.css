@@ -1,0 +1,16 @@
+html
+{
+    
+    display: flex;
+    justify-content: center;
+}
+header
+{
+    text-align: center;
+}
+
+body
+{
+    margin-top: 100px;
+
+}
