@@ -1,16 +1,30 @@
 html
 {
-    
+    height: 100%;
     display: flex;
     justify-content: center;
+    background: linear-gradient(#0069a5,#0d243b);
 }
 header
 {
     text-align: center;
 }
-
 body
 {
     margin-top: 100px;
-
+    height: 35%;
+    color: white;    
+}
+p
+{
+display: flex;
+justify-content: center;
+margin: 50px;
+}
+.result
+{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(102, 155, 49);
 }

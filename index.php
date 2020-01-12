@@ -32,14 +32,14 @@ include 'factorial_function.php';
 	</p>
 
 </form>
+<div class="result">
 <?php
 $value = $_POST['value'];
 echo "The factorial of $value is ==>  ";
 		factorial($value,1);
-      
-        ?>
+      ?>
 
-
+</div>
 </article>
 </body>
 </html>
